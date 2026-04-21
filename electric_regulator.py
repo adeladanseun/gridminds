@@ -3,7 +3,7 @@ import time
 
 # --- CONFIGURATION ---
 # Standard 240V Limits (UK/EU/AU Standards: 230V +10%/-6%)
-MAX_VOLTAGE = 254  # Trip if above this
+MAX_VOLTAGE = 224  # Trip if above this
 MIN_VOLTAGE = 216  # Trip if below this
 SIMULATION_MAX = 300 # The pot's max position equals 300V
 
